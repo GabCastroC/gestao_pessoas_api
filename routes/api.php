@@ -15,3 +15,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get("/pessoas", 'App\Http\Controllers\PessoaController@listarPessoas');
+Route::post("/pessoas", 'App\Http\Controllers\PessoaController@cadastrarPessoa');
+Route::patch("/pessoas", 'App\Http\Controllers\PessoaController@deletarPessoa');
